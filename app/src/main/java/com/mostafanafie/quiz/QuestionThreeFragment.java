@@ -25,7 +25,7 @@ public class QuestionThreeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 // Update Score in MainActivity
-                if (answerEditText.getText().toString().equals("Football")) {
+                if (answerEditText.getText().toString().equalsIgnoreCase("football")) {
                     ((MainActivity) getActivity()).score++;
                 }
                 // Navigate to next question
