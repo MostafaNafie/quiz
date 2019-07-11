@@ -28,7 +28,7 @@ public class QuestionTwoFragment extends Fragment {
             public void onClick(View v) {
                 // Check the answer to update the score in MainActivity
                 if (africaCheckBox.isChecked() && middleEastCheckBox.isChecked() && !worldCheckBox.isChecked()) {
-                    ((MainActivity) getActivity()).score += 1;
+                    ((MainActivity) getActivity()).score++;
                 }
                 // Navigate to next question
                 ((MainActivity) getActivity()).setViewPager(2);

@@ -26,7 +26,7 @@ public class QuestionFourFragment extends Fragment {
             public void onClick(View v) {
                 // Check the answer to update the score in MainActivity
                 if (gizaRadioButton.isChecked()) {
-                    ((MainActivity) getActivity()).score += 1;
+                    ((MainActivity) getActivity()).score++;
                 }
                 // Show the score
                 ((MainActivity) getActivity()).showScore();
