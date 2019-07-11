@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    <!-- Questions -->
+    <string name="question_progress">Question 1 / 4</string>
+    <string name="question_one">Did the ancient Egyptians invent the 365-days a year ?</string>
+    <string name="question_two">Greater Cairo is the largest city in ...</string>
+    <string name="question_three">What\'s the most popular sport in Egypt?</string>
+    <string name="question_four">The Great Pyramid is in ...</string>
+
+    <!-- Navigation Buttons -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="submit">Submit</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- Radio Buttons -->
+    <string name="radiobutton_yes">Yes</string>
+    <string name="radiobutton_no">No</string>
+    <string name="radiobutton_cairo">Cairo</string>
+    <string name="radiobutton_giza">Giza</string>
+
+    <!-- Check Boxes -->
+    <string name="checkbox_africa">Africa</string>
+    <string name="checkbox_middle_east">Middle-East</string>
+    <string name="checkbox_world">The World</string>
+
+    <!-- Hint -->
+    <string name="hint">Football maybe?</string>
+</resources>

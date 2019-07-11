@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_question"
+            style="@style/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/question_two"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/checkBox_africa"
+            style="@style/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/checkbox_africa"
+            app:layout_constraintBottom_toTopOf="@+id/checkBox_middle_east"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_question"
+            app:layout_constraintVertical_chainStyle="spread" />
+
+        <CheckBox
+            android:id="@+id/checkBox_middle_east"
+            style="@style/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_middle_east"
+            app:layout_constraintBottom_toTopOf="@+id/checkBox_world"
+            app:layout_constraintStart_toStartOf="@+id/checkBox_africa"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox_africa" />
+
+        <CheckBox
+            android:id="@+id/checkBox_world"
+            style="@style/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_world"
+            app:layout_constraintBottom_toTopOf="@+id/button_next"
+            app:layout_constraintStart_toStartOf="@+id/checkBox_middle_east"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox_middle_east" />
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox_world" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
