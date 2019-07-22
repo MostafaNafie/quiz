@@ -4,4 +4,6 @@
 ### Design and implement a short quiz app about some topic you are familiar with.
 The app is a quiz about Egypt. 
 
-<img src="https://www.dropbox.com/s/a2mx1zatesm7njy/%233%20Quiz.png?raw=1" width="270">
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/48848704/61653263-31bee780-acba-11e9-9dc8-4326e9668015.gif" width="290">
+</div>
